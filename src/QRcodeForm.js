@@ -161,7 +161,7 @@ function QRCodeForm() {
         <div className="form-group">
           <label htmlFor="DESCRIPTION">Nội dung</label>
           <div className="input-container">
-            <input type="text" id="DESCRIPTION_PREFIX" placeholder="Tiền tố..." value={descriptionPrefix} onChange={e => setDescriptionPrefix(e.target.value)} />
+            <input type="text" id="DESCRIPTION_PREFIX" value={descriptionPrefix} onChange={e => setDescriptionPrefix(e.target.value)} />
             <input type="text" id="DESCRIPTION_SUFFIX" value={descriptionSuffix} disabled />
           </div>
         </div>
